@@ -9,5 +9,9 @@ class User < ActiveRecord::Base
 
          def forem_name
          	email
+         end
+
+         def to_s
+            name
          end	
 end

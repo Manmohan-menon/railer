@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/FriendlyId/friendly_id.git
+  revision: 7f1a9557ef388cbf9406692aeb45ba074125774f
+  specs:
+    friendly_id (5.0.4)
+      activerecord (>= 4.0.0)
+
+GIT
   remote: git://github.com/radar/forem-bootstrap.git
   revision: 10be50afc1d0a22af1306076e41624c55fc585be
   specs:
@@ -29,6 +36,12 @@ GIT
       select2-rails (~> 3.5.4)
       simple_form (~> 3.0.1)
       workflow (= 1.0.0)
+
+GIT
+  remote: https://github.com/nukturnal/cancan.git
+  revision: a606378912e75d6b62f8257ffa5b4c5f2023760b
+  specs:
+    cancan (1.6.10)
 
 GEM
   remote: https://rubygems.org/
@@ -83,8 +96,6 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.2.1)
-    friendly_id (5.0.4)
-      activerecord (>= 4.0.0)
     gemoji (2.1.0)
     hike (1.2.3)
     i18n (0.6.11)
@@ -189,11 +200,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  cancan!
   coffee-rails (~> 4.0.0)
   devise
   forem!
   forem-bootstrap!
   forem-redcarpet!
+  friendly_id!
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.1)

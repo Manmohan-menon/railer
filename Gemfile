@@ -43,4 +43,6 @@ group :development do
 	gem 'forem-redcarpet', github: "radar/forem-redcarpet"
 	gem 'will_paginate'
 	gem 'devise'
+	gem 'friendly_id', github: "FriendlyId/friendly_id"
+	gem 'cancan', git: "https://github.com/nukturnal/cancan.git"
 end
